@@ -1,0 +1,5 @@
+../Core/Src/display.c:12:6:display7SEG	1
+../Core/Src/display.c:19:7:update7SEG	5
+../Core/Src/display.c:62:6:update7SegBuffer	1
+../Core/Src/display.c:69:6:clearAllLight	1
+../Core/Src/display.c:78:6:turnOnAllLight	1
