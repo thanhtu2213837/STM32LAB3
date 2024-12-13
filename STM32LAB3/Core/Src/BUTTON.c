@@ -13,7 +13,7 @@ int KeyReg2[N0_OF_BUTTONS] = {NORMAL_STATE};
 int KeyReg3[N0_OF_BUTTONS] = {NORMAL_STATE};
 
 
-int TimeOutForKeyPress =  200;
+int TimeOutForKeyPress =  2000;
 int button1_flag[N0_OF_BUTTONS] = {0};
 
 void subKeyProcess(int index){

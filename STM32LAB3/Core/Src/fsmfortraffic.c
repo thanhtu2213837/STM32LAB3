@@ -9,9 +9,9 @@
 #include "fsmfortraffic.h"
 
 int status = 0;
-int timeForGreen = 5000;
-int timeForYellow = 3000;
-int timeForRed = 8000;
+int timeForGreen = 3000;
+int timeForYellow = 2000;
+int timeForRed = 5000;
 int timeForGreen_tmp;
 int timeForYellow_tmp;
 int timeForRed_tmp;

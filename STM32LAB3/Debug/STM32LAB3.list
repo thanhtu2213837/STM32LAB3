@@ -81,7 +81,7 @@ Disassembly of section .text:
 0800014c <subKeyProcess>:
 
 
-int TimeOutForKeyPress =  200;
+int TimeOutForKeyPress =  2000;
 int button1_flag[N0_OF_BUTTONS] = {0};
 
 void subKeyProcess(int index){
@@ -609,8 +609,8 @@ void turnOnAllLight(){
  800052c:	40010800 	.word	0x40010800
 
 08000530 <FsmForTrafficLight>:
-int timeForYellow = 3000;
-int timeForRed = 8000;
+int timeForYellow = 2000;
+int timeForRed = 5000;
 int timeForGreen_tmp;
 int timeForYellow_tmp;
 int timeForRed_tmp;
